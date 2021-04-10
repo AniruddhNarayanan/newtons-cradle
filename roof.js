@@ -17,7 +17,7 @@ class roof{
      translate(this.body.position.x, this.body.position.y);
     //  fill("gray");
      imageMode(CENTER);
-     image(this.image,this.body.position.x, this.body.position.y,400,10);
+     image(this.image,0,0,this.width,this.height);
      
      pop();
     }
